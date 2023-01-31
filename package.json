@@ -9,6 +9,7 @@
   "dependencies": {
     "@nomicfoundation/hardhat-network-helpers": "^1.0.7",
     "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
     "hardhat-gas-reporter": "^1.0.9"
   }
 }
