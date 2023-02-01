@@ -10,7 +10,7 @@ async function main() {
     const BoxV2UUPS = await ethers.getContractFactory("BoxV2UUPS");
 
     console.log("Deploying Box...");
-    const boxV2UUPS = await upgrades.upgradeProxy(box_proxy, BoxV2UUPS, {kind: 'uups'});
+    const boxV2UUPS = await upgrades.upgradeProxy(box_proxy, BoxV2UUPS);
     console.log(`Box deployed to: ${boxV2UUPS.address}`);
 }
 
